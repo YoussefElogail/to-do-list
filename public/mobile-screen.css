@@ -1,0 +1,18 @@
+.hide-when-mobile {
+  flex-direction: row;
+  position: relative;
+}
+
+
+p, button, a, footer, .fa-heart{
+  font-size: 17px !important;
+}
+
+
+
+
+.logo{
+  font-size: 25px !important;
+}
+
+ 

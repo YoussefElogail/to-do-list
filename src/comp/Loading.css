@@ -1,0 +1,21 @@
+
+.loading{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  animation: mymove 1s infinite linear;
+}
+.Light .loading{
+  border-top: 5px solid  teal;
+  border-right: 5px solid  teal;
+}
+.Dark .loading{
+  border-top: 5px solid  cyan;
+  border-right: 5px solid  cyan;
+}
+
+@keyframes mymove {
+  0% {transform: rotate(0deg);}
+
+  100% {transform: rotate(360deg);}
+}

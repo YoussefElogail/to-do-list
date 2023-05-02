@@ -1,0 +1,26 @@
+{
+  "lang": "Language",
+  "signout": "Sign-out",
+  "sign-in":"Sign in",
+  "Sign-up":"Sign-up",
+  "support": "Support",
+  "account": "Profile",
+  "AddTitle":"Add title :",
+  "Details":"Add details :",
+  "AddTheTask":"Add the task",
+  "UserName":"User name : ",
+  "E-mail":"E-mail : ",
+  "Password":"Password :",
+  "This-step-is-not-allowed":"This step is not allowed at this time",
+  "Wrong-Email":"Wrong email",
+  "user-not-found":"User not found",
+  "Wrong-Password":"Wrong password",
+  "too-many-requests":"Too many requests, please try again later",
+  "Please-check":"Please check your email and password",
+  "WrongEmail-R":"Please enter a valid email address (ex: your-email@domain.com)",
+  "weakPassword":"Weak password, please enter at least 6 (letters - numbers - symbols)",
+  "email-already-in-use":"Email already in use"
+
+
+
+}

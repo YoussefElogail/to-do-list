@@ -1,0 +1,24 @@
+{
+  "lang": " La langue",
+  "signout": "se déconnecter",
+  "sign-in":"S'identifier",
+  "Sign-up":"S'inscrire",
+  "support": "entre d'aidec",
+  "account": "Le profil",
+  "AddTitle":"Ajouter un titre :",
+  "Details":"ajouter des détails :",
+  "AddTheTask":"Ajouter la tâche",
+  "UserName":"nom d'utilisateur : ",
+  "E-mail":"E-mail : ",
+  "Password":"Mot de passe :",
+  "This-step-is-not-allowed":"Cette étape n'est pas autorisée pour le moment",
+  "Wrong-Email":"Mauvaise adresse mail",
+  "user-not-found":"Utilisateur non trouvé",
+  "Wrong-Password":"Mauvais mot de passe",
+  "too-many-requests":"Il y a trop de demandes. Veuillez réessayer plus tard",
+  "Please-check":"Veuillez vérifier votre email et votre mot de passe",
+  "WrongEmail-R":"Veuillez entrer une adresse email valide  (ex: your-email@domain.com)",
+  "weakPassword":"Mot de passe faible, veuillez saisir au moins 6 (lettres - chiffres - symboles)",
+  "email-already-in-use":"Email déjà utilisé"
+
+}
