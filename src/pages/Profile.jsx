@@ -67,7 +67,9 @@ const Profile = () => {
     return (
       <>
         <Helmet>
-          <title>Profile</title>
+          <title>
+            {t("account")}
+          </title>
 
           <style type="text/css">{` 
         main{

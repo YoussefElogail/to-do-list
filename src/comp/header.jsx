@@ -23,9 +23,9 @@ const Header = () => {
         <h1>
           <Link to="/">
             {" "}
-            {i18n.language == "ar" && "قائمة المهام"}
-            {i18n.language == "en" && "To do list"}
-            {i18n.language == "fr" && "liste de choses à faire"}
+            {i18n.language === "ar" && "قائمة المهام"}
+            {i18n.language === "en" && "To do list"}
+            {i18n.language === "fr" && "liste de choses à faire"}
           </Link>
         </h1>
 
@@ -64,9 +64,9 @@ const Header = () => {
               {!user && (
                 <li className="main-list">
                   <NavLink className="main-link" to="/signin">
-                    {i18n.language==("ar")&&("تسجيل الدخول")}
-                    {i18n.language==("en")&&("Sign-in")}
-                    {i18n.language==("fr")&&("S'identifier")}
+                    {i18n.language===("ar")&&("تسجيل الدخول")}
+                    {i18n.language===("en")&&("Sign-in")}
+                    {i18n.language===("fr")&&("S'identifier")}
                     
                   </NavLink>
                 </li>
@@ -75,9 +75,9 @@ const Header = () => {
               {!user && (
                 <li className="main-list">
                   <NavLink className="main-link" to="/signup">
-                    {i18n.language==("ar")&&("انشاء حساب")}
-                    {i18n.language==("en")&&("Sign-up")}
-                    {i18n.language==("fr")&&("S'inscrire")}
+                    {i18n.language===("ar")&&("انشاء حساب")}
+                    {i18n.language===("en")&&("Sign-up")}
+                    {i18n.language===("fr")&&("S'inscrire")}
                   </NavLink>
                 </li>
               )}

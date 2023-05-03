@@ -1,4 +1,5 @@
 import { createContext, useReducer } from "react";
+// @ts-ignore
 const ThemeContexttt = createContext();
 
 const initialData = {
@@ -25,6 +26,7 @@ export function ThemeProvider({ children }) {
   const [firstState, dispatch] = useReducer(reducer, initialData);
   const toggleTheme = (newName) => {
     localStorage.setItem("mtTheme", newName);
+    // @ts-ignore
     dispatch({ type: "CHANGE_THEME", newValue: newName });
   };
 

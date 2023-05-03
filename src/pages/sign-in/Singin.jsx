@@ -85,7 +85,9 @@ const Signin = () => {
   return (
     <>
       <Helmet>
-        <title>Signin</title>
+        <title>
+          {t("sign-in")}
+        </title>
       </Helmet>
       <Header />
 

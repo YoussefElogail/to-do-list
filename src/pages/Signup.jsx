@@ -114,7 +114,9 @@ const Signup = () => {
     return (
       <>
         <Helmet>
-          <title>Signup</title>
+          <title>
+            {t("Sign-up")}
+          </title>
         </Helmet>
         <Header />
 

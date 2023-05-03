@@ -198,7 +198,7 @@ span {
 Scroll
 */
 ::-webkit-scrollbar {
-  width: 1.1rem;
+  width: .7rem;
 }
 
 ::-webkit-scrollbar-track {

@@ -15,6 +15,7 @@ import HomeModal from "./modal";
 import AllTasksSection from "./AllTasksSection";
 import { useTranslation } from "react-i18next";
 import Snackbar from "shared/Snackbar";
+import { t } from "i18next";
 
 const Home = () => {
   const { i18n } = useTranslation();
@@ -102,7 +103,9 @@ const Home = () => {
     return (
       <>
         <Helmet>
-          <title>HOME Page</title>
+          <title>
+          {t("home")}
+          </title>
           <style type="text/css">{`.Light main h1 span{color: #222}   `}</style>
         </Helmet>
 
@@ -141,7 +144,9 @@ const Home = () => {
       return (
         <>
           <Helmet>
-            <title>Hoom Page</title>
+            <title>
+            {t("home")}
+            </title>
             <meta name="description" content="HOME Page" />
             <meta http-equiv="refresh" content="30" />
           </Helmet>
@@ -171,11 +176,11 @@ const Home = () => {
               }}
               className="delete"
             >
-              {i18n.language==("ar")&&(sendMasdg==="Send email again"?"أرسل رسالة التأكيد مرة أخرى":null)}
-              {i18n.language==("ar")&&(sendMasdg==="has been sent"?"تم الارسال":null)}
-              {i18n.language==("en")&&sendMasdg}
-              {i18n.language==("fr")&&sendMasdg==="Send email again"?"Envoyer à nouveau l'e-mail":null}
-              {i18n.language==("en")&&sendMasdg==="has been sent"?"a été envoyé":null}
+              {i18n.language===("ar")&&(sendMasdg==="Send email again"?"أرسل رسالة التأكيد مرة أخرى":null)}
+              {i18n.language===("ar")&&(sendMasdg==="has been sent"?"تم الارسال":null)}
+              {i18n.language===("en")&&sendMasdg}
+              {i18n.language===("fr")&&sendMasdg==="Send email again"?"Envoyer à nouveau l'e-mail":null}
+              {i18n.language===("en")&&sendMasdg==="has been sent"?"a été envoyé":null}
             </button>
           </main>
 
@@ -188,7 +193,9 @@ const Home = () => {
       return (
         <>
           <Helmet>
-            <title>HOME Page</title>
+            <title>
+            {t("home")}
+            </title>
           </Helmet>
 
           <Header />

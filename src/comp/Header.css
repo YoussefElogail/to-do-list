@@ -36,6 +36,9 @@
   display: block;
   width: 100%;
 }
+.lang{
+  cursor: pointer;
+}
 ul.lang-box {
   position: absolute;
   width: 100%;
@@ -185,7 +188,6 @@ header {
     display: none !important;
   }
   ul.lang-box{
-
     border-top:1px solid cyan;
     background-color: #151515;
     width: 150px;

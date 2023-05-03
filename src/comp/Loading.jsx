@@ -6,10 +6,17 @@ import  './Loading.css';
 
 
 import React from 'react';
+import { Helmet } from "react-helmet-async";
+import { t } from "i18next";
 
 const Loading = () => {
   return (
-    <div>
+    <div> 
+      <Helmet>
+            <title>
+            {t("Loading")}
+            </title>
+          </Helmet>
         <Header />
 
         <main>

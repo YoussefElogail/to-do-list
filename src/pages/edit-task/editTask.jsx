@@ -16,6 +16,7 @@ import { db } from "../../firebase/config";
 import { useNavigate } from "react-router-dom";
 import ReactLoading from "react-loading";
 import { useTranslation } from "react-i18next";
+import { t } from "i18next";
 
 const EditTask = () => {
   const { i18n } = useTranslation();
@@ -81,7 +82,9 @@ const EditTask = () => {
     return (
       <div>
         <Helmet>
-          <title>edit task Page</title>
+          <title>
+            {t("edit-task")}
+          </title>
         </Helmet>
 
         <Header />
